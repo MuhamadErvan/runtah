@@ -1,21 +1,22 @@
 #include <string>
 #include <iostream>
 
+using namespace std;
 int main() {
     std::string input;
 
     while( true )
     {
-        std::cout << "1 + 1 berapa?" << std::endl;
-        std::cin >> input;
+        cout << "1 + 1 berapa?" << endl;
+        cin >> input;
         if( input == "2" )
         {
-            std::cout << "Bener";
+            cout << "Bener" << endl;
 			break;
         }
         else
         {
-            std::cout << "Salah blokk" << std::endl;
+            cout << "Salah blokk" << endl;
         }
     }
 
