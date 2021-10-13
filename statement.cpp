@@ -16,7 +16,7 @@ int main() {
         }
         else
         {
-            cout << "Salah blokk" << endl;
+            cout << "Salah ngab, coba lagi" << endl;
         }
     }
 
