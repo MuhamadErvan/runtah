@@ -3,7 +3,7 @@
 
 using namespace std;
 int main() {
-    std::string input;
+    string input;
 
     while( true )
     {
