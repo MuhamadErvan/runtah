@@ -9,13 +9,14 @@ int main() {
     {
         cout << "Does she love you? 'yes/no'" << endl;
         cin >> input;
-        if( input == "yes" )
-        {
+        if( input == "yes" ) {
             cout << "Yay!" << endl;
           break;
-        } else {
+        } else if ( input == "no" ) {
             cout << ":)" << endl;
           break;
+        } else {
+        cout << "Oops, try again." << endl;
         }
     }
      return 0;
