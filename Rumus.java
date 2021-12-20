@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Rumus
+public class Rumus {
     public static void main(String[] args) {
          Scanner input = new Scanner (System.in);
  double luas;
@@ -72,7 +72,7 @@ public class Rumus
          break;
      }
      case 5 :{
-         System.out.println("Masukan panjang sisi1 : ");
+         System.out.println("Masukan panjang sisi 1 : ");
          sisi1=Integer.parseInt(input.next());
          System.out.println("Masukan tinggi jajargenjang:");
          tinggi=Integer.parseInt(input.next());
@@ -116,7 +116,7 @@ public class Rumus
          sisi3=Integer.parseInt(input.next());
          System.out.println("Masukan panjang sisi 4 : ");
          sisi4=Integer.parseInt(input.next());
-         System.out.println("Rumus Mencari luas belah ketupat adalah diagonal1 dikali diagonal2 dibagi 2.");
+         System.out.println("Rumus Mencari luas belah ketupat adalah diagonal 1 dikali diagonal 2 dibagi 2.");
          luas=d1*d2/2;
          System.out.println("luas belah ketupat adalah : "+luas);
          System.out.println("Rumus mencari keliling belah ketupat adalah penjumlahan dari keempat sisi yang ada.");
@@ -129,20 +129,20 @@ public class Rumus
          d1 = Integer.parseInt(input.next());
          System.out.println("Masukkan Panjang Diagonal 2 : ");
          d2 = Integer.parseInt(input.next());
-         System.out.println("Masukkan Panjang Sisi1 : ");
+         System.out.println("Masukkan Panjang Sisi 1 : ");
          sisi1 = Integer.parseInt(input.next());
-         System.out.println("Masukkan Panjang Sisi2 : ");
+         System.out.println("Masukkan Panjang Sisi 2 : ");
          sisi2 = Integer.parseInt(input.next());
-         System.out.println("Masukkan Panjang Sisi3 : ");
+         System.out.println("Masukkan Panjang Sisi 3 : ");
          sisi3 = Integer.parseInt(input.next());
-         System.out.println("Masukkan Panjang Sisi4 : ");
+         System.out.println("Masukkan Panjang Sisi 4 : ");
          sisi4 = Integer.parseInt(input.next());
-         System.out.println("Rumus Mencari Luas Layang - Layang Adalah Diagonal1 Dikali Diagonal2 Dibagi 2.");
+         System.out.println("Rumus mencari luas Layang - Layang adalah diagonal 1 dikali diagonal 2 dibagi 2.");
          luas = d1 * d2 / 2 ;
-         System.out.println("Luas Layang - Layang Adalah : " + luas) ;
-         System.out.println("Rumus Mencari Keliling Layang - Layang Adalah Penjumlahan Dari Keempat Sisi Yang Ada.");
+         System.out.println("Luas layang-layang adalah : " + luas) ;
+         System.out.println("Rumus mencari keliling layang - layang adalah penjumlahan dari keempat sisi yang ada.");
          kel = sisi1 + sisi2 + sisi3 + sisi4 ;
-         System.out.println("Keliling Layang - Layang Adalah : " + kel) ;
+         System.out.println("Keliling layang - layang adalah : " + kel) ;
          break;
      }
      default:
